@@ -72,7 +72,7 @@ See https://youtu.be/jRlinjpTl0c how to video for the whole process of this comm
 You should use composer command without `--no-dev` if you would like to get environment that was configured especially for OpenY. This means you'd remove Vagrant/Docksal from the code tree.
 So it should look like this:
 ```
-composer create-project ymcatwincities/openy-project:8.1.x-development-dev MY_PROJECT --no-interaction
+composer create-project ycloudyusa/yusaopeny-project:9.2.x-development-dev MY_PROJECT --no-interaction
 cd MY_PROJECT && composer update
 ```
 
